@@ -1,62 +1,6 @@
 import React from "react";
 
-const siteText = [
-  {
-    text: ["make", "site compliant with", "react.js"],
-    title: "Site web with React",
-    code: "https://github.com/bestdevelope/my-portfolio",
-    view: "https://react.netlify.app",
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, Vite",
-    ],
-  },
-  {
-    text: ["make", "site compliant with", "react.js"],
-    title: "Site web with React",
-    code: "https://github.com/bestdevelope/my-portfolio",
-    view: "https://react.netlify.app",
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, Vite",
-    ],
-  },
-  {
-    text: ["make", "site compliant with", "react.js"],
-    title: "Site web with React",
-    code: "https://github.com/bestdevelope/my-portfolio",
-    view: "https://react.netlify.app",
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, Vite",
-    ],
-  },
-  {
-    text: ["make", "site compliant with", "react.js"],
-    title: "Site web with React",
-    code: "https://github.com/bestdevelope/my-portfolio",
-    view: "https://react.netlify.app",
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, Vite",
-    ],
-  },
-  {
-    text: ["make", "site compliant with", "react.js"],
-    title: "Site web with React",
-    code: "https://github.com/bestdevelope/my-portfolio",
-    view: "https://react.netlify.app",
-    info: [
-      "site coding",
-      "production period : two days",
-      "use stack : HTML5/CSS3, CSS Variable, Vite",
-    ],
-  },
-];
+import { siteText } from "../constants";
 
 function Site() {
   return (

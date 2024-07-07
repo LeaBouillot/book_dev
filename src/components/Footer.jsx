@@ -1,15 +1,7 @@
 import React from "react";
 
-const footerIcon = [
-  {
-    icon: "https://api.iconify.design/akar-icons:github-fill.svg",
-    link: "https://github.com/bestdevelope",
-  },
-  {
-    icon: "https://api.iconify.design/skill-icons:linkedin.svg",
-    link: "https://www.linkedin.com/in/léa-bouillot-0430b2253/",
-  },
-];
+import { footerIcon } from "../constants";
+
 function Footer() {
   return (
     <footer id="footer" role="contentinfo">

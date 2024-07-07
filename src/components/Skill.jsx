@@ -1,20 +1,6 @@
 import React from "react";
 
-const skillText = [
-  {
-    title:
-      "En cours: TP Concepteur Développeur d'Applications de niveau 6 à PREPAVENIR FORMATION France",
-    desc: "Compétences en cours d'acquisition : JavaScript · React · Node.js · PHP · SQL · Framework Symfony",
-  },
-  {
-    title: "Titre Profesionelle RNCP Graphiste & Web Designer",
-    desc: "Figma, Adobe Creative Suite. Design d’interface utilisateur. WordPress Developer",
-  },
-  {
-    title: "Mes motivations",
-    desc: "Je suis très motivée et impatiente de mettre en pratique mes connaissances dans un environnement professionnel stimulant à votre équipe.",
-  },
-];
+import { skillText } from "../constants";
 
 function Skill() {
   return (
