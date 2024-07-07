@@ -26,9 +26,7 @@ function Header() {
         >
           <ul>
             {headerNav.map((nav, key) => (
-              <li>
-                {" "}
-                key={key}
+              <li key={key}>
                 <a href={nav.url}>{nav.title}</a>
               </li>
             ))}
