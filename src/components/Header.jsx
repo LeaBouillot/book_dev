@@ -40,7 +40,11 @@ function Header() {
             </a>
           </h1>
         </div>
-        <nav className={`header__nav ${show ? "show" : ""}`}>
+        <nav
+          className={`header__nav ${show ? "show" : ""}`}
+          role="navigation"
+          aria-label="main menu"
+        >
           <ul>
             {headerNav.map((nav, key) => (
               <li>
