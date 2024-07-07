@@ -1,42 +1,64 @@
-import React from "react";
+import React, { useState } from "react";
+
+const headerNav = [
+  {
+    title: "intro",
+    url: "#intro",
+  },
+  {
+    title: "skill",
+    url: "#skill",
+  },
+  {
+    title: "site",
+    url: "#site",
+  },
+  {
+    title: "portfolio",
+    url: "#port",
+  },
+  {
+    title: "contact",
+    url: "#contact",
+  },
+];
 
 function Header() {
+  const [show, setShow] = useState(false);
+
+  const ToggleMenu = () => {
+    setShow((prevShow) => !prevShow);
+  };
+
   return (
     <header id="header" role="banner">
       <div className="header__inner">
         <div className="header__logo">
           <h1>
             <a href="/">
-              portfolio<em>React</em>
+              portfolio<em>react.js</em>
             </a>
           </h1>
         </div>
-        <nav className="header__nav" role="navigation" aria-label="main menu">
+        <nav className={`header__nav ${show ? "show" : ""}`}>
           <ul>
-            <li>
-              <a href="#intro">intro</a>
-            </li>
-            <li>
-              <a href="#skill">skill</a>
-            </li>
-            <li>
-              <a href="#site">site</a>
-            </li>
-            <li>
-              <a href="#portfolio">portfolio</a>
-            </li>
-            <li>
-              <a href="#contact">contact</a>
-            </li>
+            {headerNav.map((nav, key) => (
+              <li>
+                {" "}
+                key={key}
+                <a href={nav.url}>{nav.title}</a>
+              </li>
+            ))}
           </ul>
         </nav>
         <div
           className="header__nav__mobile"
           id="headerToggle"
           aria-controls="primary-menu"
-          aria-expanded="false"
+          aria-expanded={show ? "true" : "false"}
           role="button"
-          tabindex="0"
+          tabIndex="0"
+          onClick={ToggleMenu} //menu burger
         >
           <span></span>
         </div>

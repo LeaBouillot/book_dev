@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import HomeView from "./views/HomeView";
 
-const App = () => {
+function App(){
     return (
     <BrowserRouter>
         <Routes>
