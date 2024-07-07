@@ -35,7 +35,7 @@ function Port() {
   }, []);
 
   return (
-    <section id="port">
+    <section id="port" ref={horizontalRef}>
       <div className="" port__inner>
         <div className="" port__title>
           Portfolio
@@ -48,7 +48,7 @@ function Port() {
                 href={port.code}
                 target="_blank"
                 className="img"
-                rel="noreferrer"
+                rel="noreferrer noreferrer"
               >
                 <img src={port.img} alt={port.name} />
               </a>
@@ -58,7 +58,7 @@ function Port() {
                 href={port.view}
                 target="_blank"
                 className="site"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 Voir le site
               </a>
