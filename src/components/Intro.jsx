@@ -23,7 +23,7 @@ function Intro() {
             <div>{introText.desc[0]}</div>
             <div>{introText.desc[1]}</div>
           </div>
-          <div>
+          <div className="img">
             <img src={about} alt="about me" />
           </div>
         </div>
