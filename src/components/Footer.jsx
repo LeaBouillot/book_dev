@@ -23,7 +23,7 @@ function Footer() {
               {footerIcon.map((footer, key) => (
                 <li key={key}>
                   <a href={footer.link} target="_blank" rel="noreferrer">
-                    {footer.icon}
+                    <img src={footer.icon} alt={footer.title} />
                   </a>
                 </li>
               ))}
