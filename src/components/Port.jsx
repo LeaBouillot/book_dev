@@ -36,7 +36,7 @@ function Port() {
 
   return (
     <section id="port" ref={horizontalRef}>
-      <div className="" port__inner>
+      {/* <div className="" port__inner>
         <div className="" port__title>
           Portfolio
         </div>
@@ -65,7 +65,7 @@ function Port() {
             </article>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

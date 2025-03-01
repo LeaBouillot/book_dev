@@ -5,7 +5,7 @@ import { footerIcon } from "../constants";
 function Footer() {
   return (
     <footer id="footer" role="contentinfo">
-      <div className="footer__inner">
+      {/* <div className="footer__inner">
         <h2 className="footer__text">
           <div>bestdevelope</div>
           <div>@webs</div>
@@ -31,7 +31,7 @@ function Footer() {
           </div>
         </div>
         <div>&copy; 2024 Designed by Léa Bouillot</div>
-      </div>
+      </div> */}
     </footer>
   );
 }

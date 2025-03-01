@@ -6,13 +6,20 @@
   @media (max-width: 800px) {
     flex-direction: column;
   }
-
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px; /* Pour avoir des marges sur mobile */
+    width: 100%;
+    box-sizing: border-box;
+  }
   .skill__title {
     position: sticky;
+    margin: 20px;
     top: 70px;
     left: 0;
     width: 48%;
-    height: 5vw;
+    height: 7vw;
     font-size: 4vw;
     font-weight: 900;
     line-height: 1.6;
@@ -56,9 +63,10 @@
     }
     h3 {
       font-size: 1.5rem;
+      font-weight: 900;
       text-decoration: underline;
       text-underline-position: under;
-      margin-bottom: 1vw;
+      margin-bottom: 3vw;
     }
     p {
       margin-bottom: 30vh;

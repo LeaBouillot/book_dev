@@ -9,12 +9,12 @@ function Contact() {
         <h2 className="contact__title">Contactez-moi</h2>
         <div className="contact__lines" aria-hidden="true">
           <span className="line"></span>
+          {/* <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
-          <span className="line"></span>
-          <span className="line"></span>
+          <span className="line"></span> */}
         </div>
         <div className="contact__text">
           <div className="text">
@@ -33,12 +33,12 @@ function Contact() {
         </div>
         <div className="contact__lines" aria-hidden="true">
           <span className="line"></span>
+          {/* <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
-          <span className="line"></span>
-          <span className="line"></span>
+          <span className="line"></span> */}
         </div>
       </div>
     </section>

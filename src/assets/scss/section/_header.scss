@@ -2,6 +2,7 @@
     @include position-fixed;
     z-index: 10000;
 }
+
 .header__inner {
     @include flex-between;
     background-color: rgba(116, 99, 99, 0.1);

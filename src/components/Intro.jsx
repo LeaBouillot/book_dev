@@ -1,6 +1,6 @@
 import React from "react";
 
-import about from "../assets/img/about.jpg";
+import about from "../assets/img/about.png";
 
 import { introText } from "../constants";
 
@@ -15,8 +15,8 @@ function Intro() {
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
-          <span className="line"></span>
-          <span className="line"></span>
+          {/* <span className="line"></span>
+          <span className="line"></span> */}
         </div>
         <div className="intro__text">
           <div className="text">
@@ -27,7 +27,7 @@ function Intro() {
             <img src={about} alt="about me" />
           </div>
         </div>
-        <div className="intro__lines bottom" aria-hidden="true">
+        {/* <div className="intro__lines bottom" aria-hidden="true">
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
@@ -35,7 +35,7 @@ function Intro() {
           <span className="line"></span>
           <span className="line"></span>
           <span className="line"></span>
-        </div>
+        </div> */}
       </div>
     </section>
   );
